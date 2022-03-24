@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/endless/play",
+    "pages/time/play",
+    "pages/end/end",
+    "pages/VSmodle/VSmodle",
+    "pages/logs/logs"
+  ], 
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "别踩白块v.2",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/未被选中.png",
+      "selectedIconPath": "icon/选中.png"
+      },
+      {
+        "pagePath": "pages/VSmodle/VSmodle",
+        "text": "我的记录",
+        "iconPath": "icon/vs未选中.png",
+        "selectedIconPath": "icon/vs选中.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="line">
+  <view class="blocks black" id="endless" bindtap="goGame">
+    <text id="endless">无尽模式</text>
+  </view>
+  <view class="blocks" id="time" bindtap="goGame">
+    <text id="time">计时模式</text>
+  </view>
+</view>
